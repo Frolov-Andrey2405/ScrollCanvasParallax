@@ -38,7 +38,7 @@ body {
     font-size: 16px;
     background-color: #0b1d26;
     color: #fff;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
 }
 
 .wrapper {
@@ -176,13 +176,13 @@ body {
 }
 
 @media (max-width: 767px) {
-    .parallax__ title {
+    .parallax__title {
         font-size: 50px;
     }
 
     .parallax__label {
         font-size: 16px;
-        margin: epx Opx 15px epx;
+        margin: 0 0 15px 0;
     }
 }
 
@@ -193,6 +193,6 @@ body {
 
     .parallax__label::before {
         flex: 0 0 50px;
-        margin: 0px 10px 0px 0px;
+        margin: 0 10px 0 0;
     }
 }

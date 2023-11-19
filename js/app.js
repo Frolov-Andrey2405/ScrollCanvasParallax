@@ -1,7 +1,7 @@
 "use strict";
 
 // Waiting for content to load 
-window.onload = function () {
+document.addEventListener("DOMContentLoaded", function () {
     const parallax = document.querySelector(".parallax");
 
     if (parallax) {
@@ -73,4 +73,4 @@ window.onload = function () {
             human.parentElement.style.cssText = `transform: translate(0%, -${scrollTopProcent / 3}%);`;
         }
     }
-}
+})
